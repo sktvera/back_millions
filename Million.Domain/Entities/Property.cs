@@ -1,4 +1,4 @@
-// Million.Domain/Entities/Property.cs
+
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
@@ -22,11 +22,10 @@ namespace Million.Domain.Entities
         [BsonElement("price")]
         public decimal Price { get; set; }
 
-        // Compatibilidad (si tenías base64)
+       
         [BsonElement("image")]
         public string Image { get; set; } = string.Empty;
 
-        // NUEVOS:
         [BsonElement("imageKey")]
         public string? ImageKey { get; set; }
 

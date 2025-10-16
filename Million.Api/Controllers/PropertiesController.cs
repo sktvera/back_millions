@@ -4,7 +4,7 @@ using MongoDB.Bson;
 using Million.Application.DTOs;
 using Million.Application.Services;
 using Million.Domain.Entities;
-using System.Linq; // <- necesario por .Select()
+using System.Linq; 
 
 namespace Million.Api.Controllers
 {

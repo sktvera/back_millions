@@ -1,4 +1,4 @@
-// Million.Application/Services/PropertyService.cs (solo la parte relevante)
+
 using Million.Domain.Entities;
 using Million.Infrastructure.Repositories;
 using Million.Application.DTOs;

@@ -1,4 +1,4 @@
-// Million.Application/DTOs/UpdatePropertyDto.cs
+
 namespace Million.Application.DTOs
 {
     public class UpdatePropertyDto

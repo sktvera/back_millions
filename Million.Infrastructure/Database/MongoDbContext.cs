@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using Million.Domain.Configuration;     // MongoSettings
-using Million.Domain.Entities;         // <- IMPORTANTE
+using Million.Domain.Configuration;     
+using Million.Domain.Entities;         
 
 namespace Million.Infrastructure.Database
 {
@@ -17,7 +17,7 @@ namespace Million.Infrastructure.Database
             _database = client.GetDatabase(settings.DatabaseName);
         }
 
-        // <- Habilita esta propiedad para que el repo funcione
+        
         public IMongoCollection<Property> Properties =>
             _database.GetCollection<Property>("Properties");
     }

@@ -1,7 +1,7 @@
 using Million.Domain.Entities;
 using Million.Infrastructure.Database;
 using MongoDB.Driver;
-using MongoDB.Bson; // <- necesario para BsonRegularExpression
+using MongoDB.Bson; 
 
 namespace Million.Infrastructure.Repositories
 {

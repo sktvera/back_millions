@@ -1,4 +1,4 @@
-// Million.Domain/Configuration/MongoSettings.cs
+
 namespace Million.Domain.Configuration
 {
     public class MongoSettings
